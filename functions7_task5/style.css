@@ -1,0 +1,46 @@
+.divC {
+    width: 300px;
+    padding: 50px 50px 50px 50px;
+    margin: 30px auto;
+    background: rgb(36, 32, 32);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    color: rgb(24, 24, 182);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+span {
+    color: orange;
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px #ccc;
+    cursor: crosshair;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: url('https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/cell.gif');
+}
